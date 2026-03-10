@@ -44,7 +44,7 @@ python -c "from src.server import APIIndex, get_index_dir; i=APIIndex.load(get_i
 ```
 
 ### 2. Connect to Your AI Assistant
-See [SETUP.md](SETUP.md#connecting-to-ai-assistants) for Claude Code, Antigravity, and other tools.
+See [SETUP.md](SETUP.md#connecting-to-ai-assistants) for Claude Code, Antigravity, and other tools. NB. At present, Claude Code does not work with the free Claude.ai plan. Anthropic’s setup docs state that Claude Code requires a Pro, Max, Team, Enterprise, or Console account, and that the free Claude.ai plan does not include Claude Code access.
 
 **Note:** Each AI tool has different MCP configuration syntax. See SETUP.md for your specific tool.
 
